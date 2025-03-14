@@ -33,6 +33,27 @@ const AboutUs = () => {
     { number: "2", label: "Week Delivery" }
   ];
 
+  const leadershipTeam = [
+    {
+      name: "Sarah Johnson",
+      role: "Chief Technology Officer",
+      description: "15+ years experience in AI and computer vision technology",
+      image: "/images/aa.jpg"
+    },
+    {
+      name: "Michael Smith",
+      role: "Chief Executive Officer",
+      description: "20+ years experience in business strategy and leadership",
+      image: "/images/bb.jpg"
+    },
+    {
+      name: "Emily Davis",
+      role: "Chief Marketing Officer",
+      description: "10+ years experience in digital marketing and brand management",
+      image: "/images/cc.jpg"
+    }
+  ];
+
   return (
     <section className="py-24 bg-gradient-to-b from-white to-gray-50" id='about'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -126,25 +147,23 @@ const AboutUs = () => {
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((member, index) => (
-              <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                <CardContent className="p-0">
-                  <img 
-                    src="/api/placeholder/400/400" 
-                    alt={`Team Member ${member}`}
-                    className="w-full h-64 object-cover"
-                  />
-                  <div className="p-6">
-                    <h4 className="text-xl font-semibold mb-1">Sarah Johnson</h4>
-                    <p className="text-gray-500 mb-3">Chief Technology Officer</p>
-                    <p className="text-gray-600">
-                      15+ years experience in AI and computer vision technology
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+      {leadershipTeam.map((member, index) => (
+        <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+          <CardContent className="p-0">
+            <img 
+              src={member.image} 
+              alt={`Team Member ${member.name}`}
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h4 className="text-xl font-semibold mb-1">{member.name}</h4>
+              <p className="text-gray-500 mb-3">{member.role}</p>
+              <p className="text-gray-600">{member.description}</p>
+            </div>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
         </div>
       </div>
     </section>

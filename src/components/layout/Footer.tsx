@@ -1,7 +1,5 @@
 import React from 'react';
-import { Users } from 'lucide-react';
-
-
+import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -35,9 +33,20 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
                 <span className="sr-only">Facebook</span>
-                <Users className="w-6 h-6" />
+                <Facebook className="w-6 h-6" />
               </a>
-              {/* Add more social media icons */}
+              <a href="#" className="text-gray-400 hover:text-white">
+                <span className="sr-only">Twitter</span>
+                <Twitter className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white">
+                <span className="sr-only">Instagram</span>
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white">
+                <span className="sr-only">LinkedIn</span>
+                <Linkedin className="w-6 h-6" />
+              </a>
             </div>
           </div>
         </div>
@@ -48,6 +57,5 @@ const Footer = () => {
     </footer>
   );
 };
-
 
 export default Footer;
