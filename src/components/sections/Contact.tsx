@@ -130,21 +130,21 @@ const Contact: React.FC = () => {
                   <MapPin className="text-orange-500 w-6 h-6" />
                 </div>
                 <span className="text-sm text-gray-600">Address</span>
-                <p className="text-xs text-gray-500">789 Oak Lane, Lakeside, TX 54321</p>
+                <p className="text-xs text-gray-500">789 Yaba, Lagos</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="bg-blue-100 rounded-full p-3 mb-2">
                   <Phone className="text-blue-500 w-6 h-6" />
                 </div>
                 <span className="text-sm text-gray-600">Contact</span>
-                <p className="text-xs text-gray-500">1800-2541-2541, 1800-14-0147</p>
+                <p className="text-xs text-gray-500">+2348067794162</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="bg-green-100 rounded-full p-3 mb-2">
                   <Mail className="text-green-500 w-6 h-6" />
                 </div>
                 <span className="text-sm text-gray-600">Email</span>
-                <p className="text-xs text-gray-500">pagedone1234@gmail.com</p>
+                <p className="text-xs text-gray-500">hello@customfitng.com</p>
               </div>
               <div 
                 className="flex flex-col items-center cursor-pointer"
