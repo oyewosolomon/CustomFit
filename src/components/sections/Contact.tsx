@@ -124,39 +124,7 @@ const Contact: React.FC = () => {
         {/* Bottom Contact Info Section */}
         <div className="bg-gray-100 py-6">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-              <div className="flex flex-col items-center">
-                <div className="bg-orange-100 rounded-full p-3 mb-2">
-                  <MapPin className="text-orange-500 w-6 h-6" />
-                </div>
-                <span className="text-sm text-gray-600">Address</span>
-                <p className="text-xs text-gray-500">789 Yaba, Lagos</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-blue-100 rounded-full p-3 mb-2">
-                  <Phone className="text-blue-500 w-6 h-6" />
-                </div>
-                <span className="text-sm text-gray-600">Contact</span>
-                <p className="text-xs text-gray-500">+2348067794162</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-green-100 rounded-full p-3 mb-2">
-                  <Mail className="text-green-500 w-6 h-6" />
-                </div>
-                <span className="text-sm text-gray-600">Email</span>
-                <p className="text-xs text-gray-500">hello@customfitng.com</p>
-              </div>
-              <div 
-                className="flex flex-col items-center cursor-pointer"
-                onClick={openMapModal}
-              >
-                <div className="bg-pink-100 rounded-full p-3 mb-2">
-                  <Star className="text-pink-500 w-6 h-6" />
-                </div>
-                <span className="text-sm text-gray-600">Google Map</span>
-                <a className="text-xs text-indigo-600 hover:underline">Discover our prime location</a>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>
