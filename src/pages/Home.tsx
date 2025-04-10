@@ -61,6 +61,9 @@ export default function Home(): JSX.Element {
         <HeroSection />
       </section>
       <section>
+        <ProductSection />
+      </section>
+      <section>
         <AboutUs />
       </section>
       <section>
@@ -75,9 +78,7 @@ export default function Home(): JSX.Element {
       <section>
         <FAQ />
       </section>
-      <section>
-        <ProductSection />
-      </section>
+     
       <section>
         <Contact />
       </section>
