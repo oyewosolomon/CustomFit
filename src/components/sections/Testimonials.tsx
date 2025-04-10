@@ -5,19 +5,19 @@ const Testimonials = () => {
       quote: "The fit is incredible, and the quality is unmatched!",
       author: "Emily R.",
       role: "Fashion Blogger",
-      image: "https://randomuser.me/api/portraits/men/71.jpg"
+      image: "/images/c-1.jpg"
     },
     {
       quote: "Finally, clothes that are made just for me. Highly recommend!",
       author: "James K.",
       role: "Business Professional",
-      image: "https://randomuser.me/api/portraits/men/72.jpg"
+      image: "/images/c-2.jpg"
     },
     {
       quote: "I've never had a better fit! CustomFit Direct is a game-changer.",
       author: "Sarah T.",
       role: "Creative Director",
-      image: "https://randomuser.me/api/portraits/men/73.jpg"
+      image: "/images/c-3.jpg"
     }
   ];
 
