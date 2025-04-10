@@ -41,7 +41,7 @@ export default function Home(): JSX.Element {
             ease: 'power2.out',
             scrollTrigger: {
               trigger: section,
-              start: 'top 80%', // When the top of the section hits 80% of the viewport
+              start: 'top 82%', // When the top of the section hits 80% of the viewport
               toggleActions: 'play none none reverse' // Animate on enter, reset on leave
             }
           }
