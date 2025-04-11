@@ -13,22 +13,22 @@ const ProductSection = () => {
       products: [
         { 
           name: 'Custom Suits', 
-          price: 'From $599', 
+          price: 'From ₦599,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.3_KYeC025yAuQzJ--WBUEQHaJ4&pid=Api' 
         },
         { 
           name: 'Dress Shirts', 
-          price: 'From $129', 
+          price: 'From ₦12,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.3_KYeC025yAuQzJ--WBUEQHaJ4&pid=Api' 
         },
         { 
           name: 'Trousers', 
-          price: 'From $149', 
+          price: 'From ₦14,000', 
           image: 'https://tse4.mm.bing.net/th?id=OIP.1ygAJUrIo7CfRbYA7x_8fwHaIi&pid=Api' 
         },
         { 
           name: 'Outerwear', 
-          price: 'From $299', 
+          price: 'From ₦18,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.FZtPvBXN36BLAh4SLZSE9wHaLH&pid=Api' 
         }
       ]
@@ -39,22 +39,22 @@ const ProductSection = () => {
       products: [
         { 
           name: 'Custom Dresses', 
-          price: 'From $299', 
+          price: 'From ₦25,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.lkeWN7EiDMVEkgA7Wa6zUgHaNK&pid=Api' 
         },
         { 
           name: 'Blouses', 
-          price: 'From $139', 
+          price: 'From 15,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.lkeWN7EiDMVEkgA7Wa6zUgHaNK&pid=Api' 
         },
         { 
           name: 'Skirts', 
-          price: 'From $159', 
+          price: 'From 20,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.lkeWN7EiDMVEkgA7Wa6zUgHaNK&pid=Api' 
         },
         { 
           name: 'Pantsuits', 
-          price: 'From $549', 
+          price: 'From ₦54,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.lkeWN7EiDMVEkgA7Wa6zUgHaNK&pid=Api' 
         }
       ]
@@ -65,17 +65,17 @@ const ProductSection = () => {
       products: [
         { 
           name: 'Belts', 
-          price: 'From $79', 
+          price: 'From ₦30,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.3_KYeC025yAuQzJ--WBUEQHaJ4&pid=Api' 
         },
         { 
           name: 'Ties', 
-          price: 'From $59', 
+          price: 'From ₦18,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.3_KYeC025yAuQzJ--WBUEQHaJ4&pid=Api' 
         },
         { 
           name: 'Scarves', 
-          price: 'From $69', 
+          price: 'From ₦6,000', 
           image: 'https://tse1.mm.bing.net/th?id=OIP.3_KYeC025yAuQzJ--WBUEQHaJ4&pid=Api' 
         }
       ]
